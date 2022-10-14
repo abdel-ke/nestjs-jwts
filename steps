@@ -1,0 +1,17 @@
+npx @nestjs/cli new nestjs=jwts
+delete controller and service from src
+npm install prisma --save-dev
+npx prisma init
+npm install @prisma/client
+npx prisma migrate dev --create-only
+npx prisma db push
+npx nest g module auth
+npx nest g module prisma
+npx nest g service prisma
+npx nest g controller auth --no-spec
+npx nest g service auth --no-spec
+npm i --save class-validator class-transformer // for dto IsString()...
+npm i bcrypt
+npm i @types/bcrypt
+npm install --save @nestjs/jwt passport-jwt
+npm install --save-dev @types/passport-jwt
