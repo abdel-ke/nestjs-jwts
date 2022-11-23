@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "059a66e5-c14b-4b7c-8354-1e84c3eae3ce",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/",
+    "url": "http://localhost:3000/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-22T19:30:51.688Z",
+    "modified": "2022-11-22T19:30:51.688Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "28cbc34b-68f8-4e3d-8926-c188e85484b0",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/local/signup",
+    "url": "http://localhost:3000/local/signup",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-22T19:31:57.367Z",
+    "modified": "2022-11-22T19:31:57.367Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2b944d04-2c73-4adf-8220-1963680f64de",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/local/signup",
+    "url": "http://localhost:3000/local/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-22T19:32:38.103Z",
+    "modified": "2022-11-22T19:32:38.103Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "381a836d-a316-4887-992c-2407d07e1561",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/auth/local/signup",
+    "url": "http://localhost:3000/auth/local/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-22T19:32:58.021Z",
+    "modified": "2022-11-22T19:33:34.669Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "test@gmail.com"
+        },
+        {
+          "name": "password",
+          "value": "12345"
+        }
+      ]
+    },
+    "tests": []
+  }
+]

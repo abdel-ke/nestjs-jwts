@@ -1,0 +1,132 @@
+[
+  {
+    "_id": "f3474462-e943-45d0-ba57-a0b9ae1fa7db",
+    "colId": "51a376d4-326d-4cae-a00f-4856fafca50c",
+    "containerId": "",
+    "name": "signUp",
+    "url": "http://localhost:3000/auth/local/signup",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-22T20:14:18.806Z",
+    "modified": "2022-11-23T12:10:36.590Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "test2@gmail.com"
+        },
+        {
+          "name": "password",
+          "value": "12345"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "4ca7767b-b4fb-4ff3-9872-e808b489e6cb",
+    "colId": "51a376d4-326d-4cae-a00f-4856fafca50c",
+    "containerId": "",
+    "name": "signin",
+    "url": "http://localhost:3000/auth/local/signin",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-23T12:08:30.167Z",
+    "modified": "2022-11-23T16:36:54.144Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "test2@gmail.com"
+        },
+        {
+          "name": "password",
+          "value": "12345"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "4394336d-b44d-4466-85c1-81b95aafb8d1",
+    "colId": "51a376d4-326d-4cae-a00f-4856fafca50c",
+    "containerId": "",
+    "name": "logout",
+    "url": "http://localhost:3000/auth/logout",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-11-23T16:04:27.469Z",
+    "modified": "2022-11-23T16:08:43.505Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      },
+      {
+        "name": "authorization",
+        "value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJpYXQiOjE2NjkyMTkxMTEsImV4cCI6MTY2OTIyMDAxMX0.CkUA5YrxHP7c7aXBa1Y9qDCrVVdfXUlo0RMGvdo13oM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "test@gmail.com",
+          "isDisabled": true
+        },
+        {
+          "name": "password",
+          "value": "12345",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "7de5d383-9b06-4684-b46f-71449d74c1cf",
+    "colId": "51a376d4-326d-4cae-a00f-4856fafca50c",
+    "containerId": "",
+    "name": "refresh",
+    "url": "http://localhost:3000/auth/refresh",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-11-23T16:35:56.517Z",
+    "modified": "2022-11-23T16:37:46.052Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      },
+      {
+        "name": "authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImVtYWlsIjoidGVzdDJAZ21haWwuY29tIiwiaWF0IjoxNjY5MjIxNDE0LCJleHAiOjE2Njk4MjYyMTR9.sPheBCcCzVtdW2PJOprsZAKrbWvWCK6Q3CRZKMRyfCs"
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]
